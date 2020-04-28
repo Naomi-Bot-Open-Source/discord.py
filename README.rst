@@ -27,31 +27,9 @@ Installing
 **Python 3.5.3 or higher is required**
 
 To install the library without full voice support, you can just run the following command:
-
 .. code:: sh
 
-    # Linux/macOS
-    python3 -m pip install -U discord.py
-
-    # Windows
-    py -3 -m pip install -U discord.py
-
-Otherwise to get voice support you should run the following command:
-
-.. code:: sh
-
-    # Linux/macOS
-    python3 -m pip install -U discord.py[voice]
-
-    # Windows
-    py -3 -m pip install -U discord.py[voice]
-
-
-To install the development version, do the following:
-
-.. code:: sh
-
-    $ git clone https://github.com/Rapptz/discord.py
+    $ git clone https://github.com/KotypeyPyEdition/discord.py
     $ cd discord.py
     $ python3 -m pip install -U .[voice]
 
