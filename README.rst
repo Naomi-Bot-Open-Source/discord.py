@@ -27,15 +27,9 @@ Installing
 **Python 3.5.3 or higher is required**
 
 To install the library without full voice support, you can just run the following command:
-Uninstall old discord.py by using 
-``sh
-$ pip uninstall discord
-``
-``sh
-$ git clone https://github.com/KotypeyPyEdition/discord.py
-$ cd discord.py
-$ python3 -m pip install -U .[voice]
-``
+
+Remove old discord.py and install this by using git 
+
 
 Optional Packages
 ~~~~~~~~~~~~~~~~~~
