@@ -1,4 +1,4 @@
-discord.py
+discord.py but mobile status
 ==========
 
 .. image:: https://discordapp.com/api/guilds/336642139381301249/embed.png
