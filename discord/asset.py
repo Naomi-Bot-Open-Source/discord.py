@@ -136,6 +136,8 @@ class Asset:
 
         return cls(state, '/icons/{0.id}/{0.icon}.{1}?size={2}'.format(guild, format, size))
 
+    def url(self):
+        return self.BASE + self._url if self._url is not None else ''
 
     def __str__(self):
         return self.BASE + self._url if self._url is not None else ''
