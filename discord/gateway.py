@@ -55,10 +55,6 @@ __all__ = (
 )
 
 class IdentifyConfig:
-    """
-    `browser` - browser name (default 'discord.py')
-        set this to 'Discord Android' to get mobile status
-    """
     os = sys.platform
     browser = 'discord.py'
     device = 'discord.py'
