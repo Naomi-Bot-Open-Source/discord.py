@@ -312,7 +312,6 @@ class DiscordWebSocket(websockets.client.WebSocketClientProtocol):
 
     async def identify(self):
         """Sends the IDENTIFY packet."""
-        print(IdentifyConfig.browser)
         payload = {
             'op': self.IDENTIFY,
             'd': {
